@@ -1,3 +1,13 @@
+struct Informer {
+	Informer()
+	{
+		std::cout << std::endl << "Konstrukcja (INFORMER)";
+	}
+	~Informer()
+	{
+		std::cout << std::endl << "Dekonstrukcja (INFORMER)";
+	}
+};
 class Wektor2D
 {
 private:

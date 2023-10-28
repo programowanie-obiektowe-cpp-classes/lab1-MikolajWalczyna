@@ -1,13 +1,13 @@
-struct Informer {
-	Informer()
-	{
-		std::cout << std::endl << "Konstrukcja (INFORMER)";
-	}
-	~Informer()
-	{
-		std::cout << std::endl << "Dekonstrukcja (INFORMER)";
-	}
-};
+//struct Informer {
+//	Informer()
+//	{
+//		std::cout << std::endl << "Konstrukcja (INFORMER)";
+//	}
+//	~Informer()
+//	{
+//		std::cout << std::endl << "Dekonstrukcja (INFORMER)";
+//	}
+//};
 class Wektor2D
 {
 private:
@@ -38,7 +38,7 @@ public:
 	}
 	float norm() { return(sqrt(x*x + y * y)); }
 	void print() { std::cout << x << " " << y<<std::endl; }
-	Informer Informator{};
+	//Informer Informator{};
 	void setX(float a) { x = a; }
 	void setY(float a) { y = a; }
 	float getX() { return(x); }
